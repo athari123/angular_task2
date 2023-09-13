@@ -1,0 +1,29 @@
+
+
+<br>
+<br>
+
+
+
+
+
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://static.vecteezy.com/system/resources/previews/005/309/699/original/cartoon-girl-student-reading-drawing-illustration-clipart-cute-free-vector.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ title }}</h5>
+      <!-- <p class="card-text"> -->   
+        
+       
+        
+        <div>
+          <label for="inputField">Enter Student Name:</label>
+          <input type="text" id="inputField" (input)="onInputChange($event)"/>
+          <h1><span style="color: cadetblue;">{{StudentName}}</span></h1>
+        </div>
+
+
+
+      
+      <a href="#" class="btn btn-primary" routerLink="/student">Go to student mark </a>
+    </div>
+  </div>
